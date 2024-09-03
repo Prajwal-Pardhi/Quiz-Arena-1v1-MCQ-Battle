@@ -1,0 +1,99 @@
+/* lobby.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 250px;
+    background-color: #007bff;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    flex-grow: 1;
+    background-color: #0056b3;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    height: 100vh;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Modal styles */
+  .modal-content {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-header, .modal-footer {
+    border-bottom: none;
+    border-top: none;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .modal-body {
+    padding: 20px 0;
+  }
+  
+  .modal-footer button {
+    margin-left: 10px;
+  }
+  
+  /* Additional styles */
+  .content {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
